@@ -1,0 +1,77 @@
+body { 
+	background-image: url('https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3374&q=80');
+    background-position: center;
+	display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: aliceblue;
+} 
+
+#container { 
+	
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+    padding:30px; 
+    border: 1px solid;
+    border-radius: 50px;
+	background-color: white(46, 163, 79); 
+} 
+
+h1 { 
+	font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #090800;
+} 
+digit { 
+	font-size: 15px; 
+	color: #4e0e0e; 
+} 
+
+.txt { 
+	font-size: 30px; 
+	color: #090800; 
+} 
+
+#buttons { 
+	margin-top: 5px; 
+} 
+#controls button{ 
+	width: 100px; 
+	padding: 10px 20px; 
+	margin: 0px 20px; 
+    min-height: 50px;
+	border-top-right-radius: 5px; 
+	border-bottom-left-radius: 5px; 
+	border-bottom-right-radius: 4px; 
+	border-top-left-radius: 4px; 
+	cursor: pointer; 
+	font-size: 1.0rem; 
+	transition: 0.5s; 
+	color: white; 
+	font-weight: bold; 
+    transition: background-color 0.5s ease;
+} 
+
+#startBtn { 
+	background-color: #2ed793; 
+} 
+#startBtn:hover{ 
+	background-color: rgb(159, 240, 159);
+} 
+
+
+#stopBtn { 
+	background-color:red; 
+} 
+#stopBtn:hover { 
+	background-color: rgb(244, 125, 125);
+} 
+
+#resetBtn { 
+	background-color: rgb(84, 84, 245); 
+}
+#resetBtn:hover { 
+	background-color: rgb(103, 103, 246);
+} 
